@@ -1,0 +1,78 @@
+.container{
+    margin: 10px;
+}
+body{
+    font-family: "Josefin Sans", sans-serif;
+}
+.port__heading{
+    color: aliceblue;
+    background-color: black;
+    padding: 10px;
+}
+.port__contact{
+    background-color:rgb(255, 51, 0);
+    padding: 3px;
+    color: aliceblue;
+    
+}
+
+.port__interest{
+    background-color:#6462fd;
+    color: black;
+    padding: 20px;
+    height: 259px;
+    display: inline-block;
+    border-radius: 10px;
+    vertical-align: top;
+       
+}
+.port__project{
+    background-color: rgb(247, 82, 22);
+    color: black;
+    padding: 10px;    
+    display: inline-block;
+    border-radius: 10px;
+    vertical-align: top;
+    
+    
+      
+}
+.port__footerbox{
+    color: aliceblue;
+    background-color: black;
+    margin-top: 10px;
+    padding: 20px;
+
+}
+.port__dotremove1,.port__dotremove2{
+    list-style: none;/*dot removing*/
+    margin: 0;
+    display: inline;
+}
+.contact--form{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.contact__form--input,.contact__form--input2,.contact__form--textarea,.contact__form--submit{
+    margin-top: 10px;
+} 
+.contact__form--input,.contact__form--input2{
+    padding: 10px;
+    border: none;
+    border-bottom: solid black 1px;
+} 
+.contact__form--textarea{
+    padding: 10px;
+    border: none;
+    border: solid black 1px;
+}  
+.contact__form--submit
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: orangered;
+    color: black;
+    border: none;
+}
